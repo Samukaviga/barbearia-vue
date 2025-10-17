@@ -51,49 +51,22 @@
   </div>
 
 
-  <div class="flex gap-5 py-8 px-4 mx-auto max-w-screen-md lg:py-10 lg:px-6 ">
+  <div class="grid grid-cols-2 gap-4 py-8 px-4 mx-auto max-w-screen-md">
 
-      <!-- Card -->
-    <div
-      class="items-center max-w-[180px] w-[320px] sm:w-[400px] px-2 rounded-lg flex flex-col  bg-gray-100 hover:bg-gray-300 border-blue-900">
-
-
-      <div class="w-full px-4 py-5 flex flex-col items-center justify-center ">
-
-        <h3 class="text-xl font-bold tracking-tight text-gray-500 ">
-          Atendimentos
-        </h3>
-        <span class="text-gray-500 dark:text-gray-400">10</span>
-
-      </div>
-
-
+    <!-- Card Atendimentos -->
+    <div class="bg-gray-100 hover:bg-gray-200 rounded-lg p-5 flex flex-col items-center">
+      <h3 class="text-xl font-bold text-gray-500">Atendimentos</h3>
+      <span class="text-gray-500 dark:text-gray-400 text-2xl font-semibold">10</span>
     </div>
 
-    <!-- End Card -->
-
-
-
-    <!-- Card -->
-    <div
-      class="items-center max-w-[180px] w-[320px] sm:w-[400px] px-2 rounded-lg flex flex-col  bg-gray-100 hover:bg-gray-300 border-blue-900">
-
-
-      <div class="w-full px-4 py-5 flex flex-col items-center justify-center ">
-
-        <h3 class="text-xl font-bold tracking-tight text-gray-500 ">
-          Novos clientes
-        </h3>
-        <span class="text-gray-500 dark:text-gray-400">10</span>
-
-      </div>
-
-
+    <!-- Card Novos Clientes -->
+    <div class="bg-gray-100 hover:bg-gray-200 rounded-lg p-5 flex flex-col items-center">
+      <h3 class="text-xl font-bold text-gray-500">Novos Clientes</h3>
+      <span class="text-gray-500 dark:text-gray-400 text-2xl font-semibold">10</span>
     </div>
-
-    <!-- End Card -->
 
   </div>
+
 
 </template>
 
