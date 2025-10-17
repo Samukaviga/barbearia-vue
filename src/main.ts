@@ -8,6 +8,9 @@ import FontAwesomeIcon from './plugins/fontawesome'
 import App from './App.vue'
 import router from './router'
 
+import 'flowbite/dist/flowbite.css'       // CSS do Flowbite
+import 'flowbite'                          // JS principal do Flowbite
+import 'flowbite-datepicker'
 
 
 const app = createApp(App)
