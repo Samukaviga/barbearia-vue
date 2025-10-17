@@ -5,12 +5,15 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { faUser, faCoffee } from '@fortawesome/free-solid-svg-icons'
 import { faHeart } from '@fortawesome/free-regular-svg-icons'
 import { faFacebook } from '@fortawesome/free-brands-svg-icons'
+import { faList } from '@fortawesome/free-solid-svg-icons'
+import { faChartBar } from '@fortawesome/free-solid-svg-icons'
+import { faChartLine } from '@fortawesome/free-solid-svg-icons'
 
 // importa o ícone desejado
 import { faScrewdriverWrench, faWrench, faGear } from '@fortawesome/free-solid-svg-icons'
 
 
 // Adiciona os ícones à biblioteca
-library.add(faUser, faCoffee, faHeart, faFacebook, faScrewdriverWrench, faWrench, faGear)
+library.add(faUser, faCoffee, faHeart, faFacebook, faScrewdriverWrench, faWrench, faGear, faList, faChartBar, faChartLine )
 
 export default FontAwesomeIcon

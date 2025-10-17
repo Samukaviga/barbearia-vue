@@ -11,7 +11,7 @@
 
             <div class="w-full px-4 py-5 flex justify-between ">
                 <div>
-                    <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                    <h3 class="text-xl font-bold tracking-tight text-gray-500 ">
                         Corte Basico
                     </h3>
                     <span class="text-gray-500 dark:text-gray-400">30 min</span>
@@ -34,7 +34,7 @@
 
             <div class="w-full px-4 py-5 flex justify-between ">
                 <div>
-                    <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                    <h3 class="text-xl font-bold tracking-tight text-gray-500">
                         Sobrancelha
                     </h3>
                     <span class="text-gray-500 dark:text-gray-400">15 min</span>
