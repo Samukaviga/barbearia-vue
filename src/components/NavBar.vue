@@ -26,11 +26,13 @@
         <div class="tooltip-arrow" data-popper-arrow></div>
       </div>
 
-
+      
+      <router-link to="client"
+        class="inline-flex flex-col items-center justify-center px-5 rounded-s-full hover:bg-gray-800 group"> 
       <button data-tooltip-target="tooltip-wallet" type="button"
-        class="inline-flex flex-col items-center justify-center px-5 hover:bg-gray-800 group">
+        class="inline-flex flex-col items-center justify-center">
         <svg class="w-5 h-5 mb-1 text-gray-400 group-hover:text-blue-500" aria-hidden="true"
-          xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+          xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20"> 
           <path
             d="M11.074 4 8.442.408A.95.95 0 0 0 7.014.254L2.926 4h8.148ZM9 13v-1a4 4 0 0 1 4-4h6V6a1 1 0 0 0-1-1H1a1 1 0 0 0-1 1v13a1 1 0 0 0 1 1h17a1 1 0 0 0 1-1v-2h-6a4 4 0 0 1-4-4Z" />
           <path
@@ -38,6 +40,9 @@
         </svg>
         <span class="sr-only">Clientes</span>
       </button>
+      </router-link>
+
+
       <div id="tooltip-wallet" role="tooltip"
         class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 rounded-lg shadow-xs opacity-0 tooltip bg-gray-700">
         Clientes

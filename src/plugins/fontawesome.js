@@ -10,10 +10,10 @@ import { faChartBar } from '@fortawesome/free-solid-svg-icons'
 import { faChartLine } from '@fortawesome/free-solid-svg-icons'
 
 // importa o ícone desejado
-import { faScrewdriverWrench, faWrench, faGear } from '@fortawesome/free-solid-svg-icons'
+import { faScrewdriverWrench, faWrench, faGear, faUserCircle } from '@fortawesome/free-solid-svg-icons'
 
 
 // Adiciona os ícones à biblioteca
-library.add(faUser, faCoffee, faHeart, faFacebook, faScrewdriverWrench, faWrench, faGear, faList, faChartBar, faChartLine )
+library.add(faUser, faCoffee, faHeart, faFacebook, faScrewdriverWrench, faWrench, faGear, faList, faChartBar, faChartLine, faUserCircle )
 
 export default FontAwesomeIcon
