@@ -16,11 +16,11 @@
     <!-- Cards -->
     <div class="flex space-x-6">
       <div class="bg-gray-900 rounded-lg px-6 py-4 text-center">
-        <p class="text-yellow-400 text-2xl font-semibold">2</p>
+        <p class="text-yellow-400 text-2xl font-semibold">{{ daySelected.schedules_number ? daySelected.schedules_number : '' }}</p>
         <p class="text-sm text-gray-400">Agendamentos</p>
       </div>
       <div class="bg-gray-900 rounded-lg px-6 py-4 text-center">
-        <p class="text-yellow-400 text-2xl font-semibold">R$ 75,00</p>
+        <p class="text-yellow-400 text-2xl font-semibold">R$ {{ daySelected.invoicing ? daySelected.invoicing : '' }}</p>
         <p class="text-sm text-gray-400">Faturamento</p>
       </div>
     </div>
@@ -70,7 +70,7 @@
     </div>
     <!-- End Card -->
 
-       <!-- Card -->
+    <!-- Card -->
     <div class="bg-gray-900 text-white rounded-xl p-4 flex justify-between items-center w-full max-w-md  ">
       <!-- Esquerda -->
       <div class="flex flex-col space-y-2">
@@ -121,17 +121,62 @@
 
 <script setup>
 
-import { reactive, ref } from 'vue'
+import { reactive, ref, computed } from 'vue'
 
 const days = reactive([
-  { label: 'SEX', number: 22, active: false },
-  { label: 'SÁB', number: 23, active: false },
-  { label: 'DOM', number: 24, active: true },
-  { label: 'SEG', number: 25, active: false },
-  { label: 'TER', number: 26, active: false },
-  { label: 'QUA', number: 27, active: false },
-  { label: 'QUI', number: 28, active: false },
+  {
+    id: 1,
+    label: 'SEX',
+    number: 22,
+    schedules_number: 3,
+    invoicing: "30,00",
+    active: false
+  },
+  {
+    id: 2,
+    label: 'SÁB',
+    number: 23,
+    schedules_number: 10,
+    invoicing: "75,00",
+    active: true
+  },
+  {
+    id: 3,
+    label: 'DOM',
+    number: 24,
+    schedules_number: 8,
+    invoicing: "60,00",
+    active: false
+  },
+   {
+    id: 4,
+    label: 'SEG',
+    number: 25,
+    schedules_number: 15,
+    invoicing: "125,00",
+    active: false
+  },
+   {
+    id: 5,
+    label: 'TER',
+    number: 26,
+    schedules_number: 10,
+    invoicing: "55,00",
+    active: false
+  },
+
 ])
+
+
+const daySelected = {
+  id: null,
+  label: "",
+  number: null,
+  schedules_number: null,
+  invoicing: "",
+  active: false
+}
+
 
 const scrollContainer = ref(null)
 let isDown = false
@@ -141,10 +186,25 @@ let scrollLeft
 
 function selectDay(item) {
 
-
   days.forEach(day => {
 
-    if (day.number == item.number) { day.active = true } else { day.active = false }
+    if (day.number == item.number) {
+        day.active = true
+
+      daySelected.id = day.id
+      daySelected.label = day.label
+      daySelected.number = day.number
+      daySelected.schedules_number = day.schedules_number
+      daySelected.invoicing = day.invoicing
+      daySelected.active = day.active
+
+      }
+      else
+      {
+        day.active = false
+      }
+
+
 
   });
 
