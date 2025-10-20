@@ -54,18 +54,23 @@
   <div class="grid grid-cols-2 gap-4 py-8 px-4 mx-auto max-w-screen-md">
 
     <!-- Card Atendimentos -->
-    <div class="bg-gray-100 hover:bg-gray-200 rounded-lg p-5 flex flex-col items-center">
-      <h3 class="text-xl font-bold text-gray-500">Atendimentos</h3>
+    <div class="bg-gray-100 hover:bg-gray-200 rounded-lg p-5 flex flex-col justify-center items-center">
+      <h3 class="text-xl font-bold text-gray-500 text-center">Atendimentos</h3>
       <span class="text-gray-500 dark:text-gray-400 text-2xl font-semibold">10</span>
     </div>
 
     <!-- Card Novos Clientes -->
-    <div class="bg-gray-100 hover:bg-gray-200 rounded-lg p-5 flex flex-col items-center">
-      <h3 class="text-xl font-bold text-gray-500">Novos Clientes</h3>
+    <div class="bg-gray-100 hover:bg-gray-200 rounded-lg p-5 flex flex-col justify-center items-center">
+      <h3 class="text-xl font-bold text-gray-500 text-center">Novos Clientes</h3>
       <span class="text-gray-500 dark:text-gray-400 text-2xl font-semibold">10</span>
     </div>
 
   </div>
+
+
+
+
+
 
 
 </template>

@@ -5,19 +5,19 @@
 
         <!-- Card -->
         <div
-            class="items-center max-w-[350px] w-[320px] sm:w-[400px] px-2 rounded-lg flex bg-gray-100 hover:bg-gray-300 border-blue-900">
+            class="items-center max-w-[350px] w-[320px] sm:w-[400px] px-2 rounded-lg flex bg-gray-900 hover:bg-gray-800 border-blue-900">
 
-            <font-awesome-icon class="text-gray-600 fa-3x" icon="gear" />
+            <font-awesome-icon class="text-gray-400 fa-3x" icon="gear" />
 
             <div class="w-full px-4 py-5 flex justify-between ">
                 <div>
-                    <h3 class="text-xl font-bold tracking-tight text-gray-500 ">
+                    <h3 class="text-xl font-bold tracking-tight text-gray-200 ">
                         Corte Basico
                     </h3>
                     <span class="text-gray-500 dark:text-gray-400">30 min</span>
                 </div>
 
-                <div class="flex items-center font-bold text-gray-500 text-lg">
+                <div class="flex items-center font-bold text-gray-200 text-lg">
                     R$ 25,00
                 </div>
 
@@ -26,28 +26,30 @@
 
         <!-- End Card -->
 
-        <!-- Card -->
+               <!-- Card -->
         <div
-            class="items-center max-w-[350px] w-[320px] sm:w-[400px] px-2 rounded-lg flex bg-gray-100 hover:bg-gray-300 border-blue-900">
+            class="items-center max-w-[350px] w-[320px] sm:w-[400px] px-2 rounded-lg flex bg-gray-900 hover:bg-gray-800 border-blue-900">
 
-            <font-awesome-icon class="text-gray-600 fa-3x" icon="gear" />
+            <font-awesome-icon class="text-gray-400 fa-3x" icon="gear" />
 
             <div class="w-full px-4 py-5 flex justify-between ">
                 <div>
-                    <h3 class="text-xl font-bold tracking-tight text-gray-500">
+                    <h3 class="text-xl font-bold tracking-tight text-gray-200 ">
                         Sobrancelha
                     </h3>
-                    <span class="text-gray-500 dark:text-gray-400">15 min</span>
+                    <span class="text-gray-500 dark:text-gray-400">30 min</span>
                 </div>
 
-                <div class="flex items-center font-bold text-gray-500 text-lg">
-                    R$ 10,00
+                <div class="flex items-center font-bold text-gray-200 text-lg">
+                    R$ 25,00
                 </div>
 
             </div>
         </div>
 
         <!-- End Card -->
+
+
 
 
 
