@@ -8,7 +8,7 @@
         <label for="simple-search" class="sr-only">Search</label>
         <div class="relative w-full">
             <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
-              
+
                 <font-awesome-icon class="w-4 h-4 text-gray-500 dark:text-gray-400" icon="user" />
 
             </div>
@@ -25,7 +25,7 @@
             <span class="sr-only">Search</span>
         </button>
     </form>
-   
+
     <!-- End Search -->
 
 
@@ -33,15 +33,15 @@
     <div class="flex flex-col gap-5 py-8 px-4 mx-auto max-w-screen-md lg:py-16 lg:px-6 ">
 
         <!-- Card -->
-        
-        <div
-            class="items-center max-w-[350px] w-[320px] sm:w-[400px] px-4 rounded-lg flex bg-gray-100 hover:bg-gray-300 border-blue-900">
 
-            <font-awesome-icon class="text-gray-600 fa-3x" icon="user-circle" />
+        <div
+            class="items-center max-w-[350px] w-[320px] sm:w-[400px] px-4 rounded-lg flex hover:border-1 hover:border-blue-900 bg-gray-900 hover:bg-gray-900 border-blue-900">
+
+            <font-awesome-icon class="text-gray-400 fa-3x" icon="user-circle" />
 
             <div class="w-full px-4 py-5 flex justify-center ">
                 <div class="text-center">
-                    <h3 class="text-xl font-bold tracking-tight text-gray-500 ">
+                    <h3 class="text-xl font-bold tracking-tight text-gray-200 ">
                         Samuel Gomes
                     </h3>
                     <span class="text-gray-500 dark:text-gray-400">
@@ -54,17 +54,17 @@
 
         <!-- End Card -->
 
-         <!-- Card -->
-        
-        <div
-            class="items-center max-w-[350px] w-[320px] sm:w-[400px] px-4 rounded-lg flex bg-gray-100 hover:bg-gray-300 border-blue-900">
+          <!-- Card -->
 
-            <font-awesome-icon class="text-gray-600 fa-3x" icon="user-circle" />
+        <div
+            class="items-center max-w-[350px] w-[320px] sm:w-[400px] px-4 rounded-lg flex hover:border-1 hover:border-blue-900 bg-gray-900 hover:bg-gray-900 border-blue-900">
+
+            <font-awesome-icon class="text-gray-400 fa-3x" icon="user-circle" />
 
             <div class="w-full px-4 py-5 flex justify-center ">
                 <div class="text-center">
-                    <h3 class="text-xl font-bold tracking-tight text-gray-500 ">
-                        Hewerton Ferreira
+                    <h3 class="text-xl font-bold tracking-tight text-gray-200 ">
+                        Hewerton
                     </h3>
                     <span class="text-gray-500 dark:text-gray-400">
                         (11) 96512-4506
@@ -76,27 +76,6 @@
 
         <!-- End Card -->
 
-         <!-- Card -->
-        
-        <div
-            class="items-center max-w-[350px] w-[320px] sm:w-[400px] px-4 rounded-lg flex bg-gray-100 hover:bg-gray-300 border-blue-900">
-
-            <font-awesome-icon class="text-gray-600 fa-3x" icon="user-circle" />
-
-            <div class="w-full px-4 py-5 flex justify-center ">
-                <div class="text-center">
-                    <h3 class="text-xl font-bold tracking-tight text-gray-500 ">
-                        Vitor Bispo
-                    </h3>
-                    <span class="text-gray-500 dark:text-gray-400">
-                        (11) 96512-4506
-                    </span>
-                </div>
-
-            </div>
-        </div>
-
-        <!-- End Card -->
 
 
 
