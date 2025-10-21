@@ -30,7 +30,7 @@ import Services from '@/components/Services.vue';
 
 import ButtonAccessLayout from '@/components/ButtonAccess/ButtonLayout.vue';
 import Button from '@/components/ButtonAccess/Button.vue';
-import FormPopUp from '@/components/FormPopUp.vue';
+import FormPopUp from '@/components/Form/ServicePopUp.vue';
 
 
 onMounted(() => {
