@@ -7,14 +7,8 @@
   <RouterView />
 </template>
 
-<script lang="ts">
+<script lang="ts" setup>
 import { RouterLink, RouterView } from 'vue-router'
-
-export default {
-
-  components: {}
-
-}
 
 
 </script>
