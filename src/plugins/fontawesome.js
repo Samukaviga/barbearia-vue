@@ -8,12 +8,15 @@ import { faFacebook } from '@fortawesome/free-brands-svg-icons'
 import { faList } from '@fortawesome/free-solid-svg-icons'
 import { faChartBar } from '@fortawesome/free-solid-svg-icons'
 import { faChartLine } from '@fortawesome/free-solid-svg-icons'
+import { faFileCirclePlus } from '@fortawesome/free-solid-svg-icons'
 
 // importa o ícone desejado
-import { faScrewdriverWrench, faWrench, faGear, faUserCircle } from '@fortawesome/free-solid-svg-icons'
+import { faScrewdriverWrench, faWrench, faGear, faUserCircle, faUserPlus } from '@fortawesome/free-solid-svg-icons'
 
 
 // Adiciona os ícones à biblioteca
-library.add(faUser, faCoffee, faHeart, faFacebook, faScrewdriverWrench, faWrench, faGear, faList, faChartBar, faChartLine, faUserCircle )
+library.add(faUser, faCoffee, faHeart, faFacebook, faScrewdriverWrench, faWrench, faGear, faList, faChartBar, faChartLine, faUserCircle, faFileCirclePlus, faUserPlus )
 
 export default FontAwesomeIcon
+
+
