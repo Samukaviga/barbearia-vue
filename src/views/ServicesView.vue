@@ -5,7 +5,7 @@
     <Services />
     <ButtonAccessLayout>
 
-      <Button nameButton="teste">
+      <Button nameButton="Novo">
 
         <svg class="w-4 h-4 mx-auto mb-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
           viewBox="0 0 18 20">
@@ -30,7 +30,7 @@ import { initFlowbite } from 'flowbite'
 import AppLayout from '@/layout/AppLayout.vue';
 import Services from '@/components/Services.vue';
 
-import ButtonAccessLayout from '@/components/ButtonAccess/ButtonAccessLayout.vue';
+import ButtonAccessLayout from '@/components/ButtonAccess/ButtonLayout.vue';
 import Button from '@/components/ButtonAccess/Button.vue';
 
 
