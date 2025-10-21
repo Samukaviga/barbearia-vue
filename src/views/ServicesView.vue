@@ -14,7 +14,7 @@
 
     </ButtonAccessLayout>
 
-     <FormPopUp />
+     <ServiceAdd />
 
   </AppLayout>
 
@@ -30,7 +30,7 @@ import Services from '@/components/Services.vue';
 
 import ButtonAccessLayout from '@/components/ButtonAccess/ButtonLayout.vue';
 import Button from '@/components/ButtonAccess/Button.vue';
-import FormPopUp from '@/components/Form/ServicePopUp.vue';
+import ServiceAdd from '@/components/Form/ServiceAdd.vue';
 
 
 onMounted(() => {
