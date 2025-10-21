@@ -16,11 +16,13 @@
     <!-- Cards -->
     <div class="flex space-x-6">
       <div class="bg-gray-900 rounded-lg px-6 py-4 text-center">
-        <p class="text-yellow-400 text-2xl font-semibold">{{ daySelected.schedules_number ? daySelected.schedules_number : '' }}</p>
+        <p class="text-yellow-400 text-2xl font-semibold">{{ daySelected.schedules_number ? daySelected.schedules_number
+          : '' }}</p>
         <p class="text-sm text-gray-400">Agendamentos</p>
       </div>
       <div class="bg-gray-900 rounded-lg px-6 py-4 text-center">
-        <p class="text-yellow-400 text-2xl font-semibold">R$ {{ daySelected.invoicing ? daySelected.invoicing : '' }}</p>
+        <p class="text-yellow-400 text-2xl font-semibold">R$ {{ daySelected.invoicing ? daySelected.invoicing : '' }}
+        </p>
         <p class="text-sm text-gray-400">Faturamento</p>
       </div>
     </div>
@@ -115,13 +117,11 @@
   </div>
 
 
-
-
 </template>
 
-<script setup>
+<script lang="ts" setup>
 
-import { reactive, ref, computed } from 'vue'
+import { reactive, ref } from 'vue'
 
 const days = reactive([
   {
@@ -148,7 +148,7 @@ const days = reactive([
     invoicing: "60,00",
     active: false
   },
-   {
+  {
     id: 4,
     label: 'SEG',
     number: 25,
@@ -156,7 +156,7 @@ const days = reactive([
     invoicing: "125,00",
     active: false
   },
-   {
+  {
     id: 5,
     label: 'TER',
     number: 26,
@@ -164,17 +164,26 @@ const days = reactive([
     invoicing: "55,00",
     active: false
   },
+  {
+    id: 6,
+    label: 'QUA',
+    number: 27,
+    schedules_number: 16,
+    invoicing: "155,00",
+    active: false
+  },
+
 
 ])
 
 
 const daySelected = {
-  id: null,
-  label: "",
-  number: null,
-  schedules_number: null,
-  invoicing: "",
-  active: false
+  id: 2,
+  label: 'SÁB',
+  number: 23,
+  schedules_number: 10,
+  invoicing: "75,00",
+  active: true
 }
 
 
@@ -189,7 +198,7 @@ function selectDay(item) {
   days.forEach(day => {
 
     if (day.number == item.number) {
-        day.active = true
+      day.active = true
 
       daySelected.id = day.id
       daySelected.label = day.label
@@ -198,11 +207,10 @@ function selectDay(item) {
       daySelected.invoicing = day.invoicing
       daySelected.active = day.active
 
-      }
-      else
-      {
-        day.active = false
-      }
+    }
+    else {
+      day.active = false
+    }
 
 
 
