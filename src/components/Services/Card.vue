@@ -18,6 +18,11 @@
         R$ {{ service.price }}
       </div>
 
+
+
+
+    </div>
+
       <!-- options -->
       <div class="relative">
         <button :id="`dropdownMenuIconButton-${service.id}`" :data-dropdown-toggle="`dropdownDots-${service.id}`"
@@ -48,8 +53,6 @@
       </div>
       <!-- options -->
 
-
-    </div>
   </div>
   <!-- End Card -->
 
