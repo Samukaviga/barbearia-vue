@@ -14,7 +14,7 @@
 
     </ButtonAccessLayout>
 
-     <ServiceAdd @add-new-service="AddNewService" />
+     <FormService @add-new-service="AddNewService" />
 
   </AppLayout>
 
@@ -30,7 +30,7 @@ import Services from '@/components/Services/Services.vue';
 
 import ButtonAccessLayout from '@/components/ButtonAccess/ButtonLayout.vue';
 import Button from '@/components/ButtonAccess/Button.vue';
-import ServiceAdd from '@/components/Services/ServiceAdd.vue';
+import FormService from '@/components/Services/FormService.vue';
 
 
 const services = reactive([
