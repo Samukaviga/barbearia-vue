@@ -26,11 +26,11 @@
 import { onMounted, reactive } from 'vue'
 import { initFlowbite } from 'flowbite'
 import AppLayout from '@/layout/AppLayout.vue';
-import Services from '@/components/Services.vue';
+import Services from '@/components/Services/Services.vue';
 
 import ButtonAccessLayout from '@/components/ButtonAccess/ButtonLayout.vue';
 import Button from '@/components/ButtonAccess/Button.vue';
-import ServiceAdd from '@/components/Form/ServiceAdd.vue';
+import ServiceAdd from '@/components/Services/ServiceAdd.vue';
 
 
 const services = reactive([
