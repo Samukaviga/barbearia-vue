@@ -33,22 +33,7 @@
 
 <script lang="ts" setup>
 
-import { reactive } from 'vue'
-
-const services = reactive([
-  {
-    id: 1,
-    name: "Cabelo",
-    price: "30,00",
-    time: '30:00'
-  },
-  {
-    id: 1,
-    name: "Sobrancelha",
-    price: "18,00",
-    time: "15:00"
-  }
-]);
+const props = defineProps(['services'])
 
 
 
