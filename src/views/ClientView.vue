@@ -13,7 +13,7 @@
 
     </ButtonAccessLayout>
 
-    <ClientAdd />
+    <FormClient />
 
   </AppLayout>
 
@@ -21,12 +21,12 @@
 
 <script lang="ts" setup>
 
-import Client from '@/components/Client.vue';
+import Client from '@/components/Client/Client.vue';
 import AppLayout from '@/layout/AppLayout.vue';
 
 import ButtonAccessLayout from '@/components/ButtonAccess/ButtonLayout.vue';
 import Button from '@/components/ButtonAccess/Button.vue';
-import ClientAdd from '@/components/Form/ClientAdd.vue';
+import FormClient from '@/components/Client/FormClient.vue';
 
 
 
