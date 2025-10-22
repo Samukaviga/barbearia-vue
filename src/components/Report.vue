@@ -51,21 +51,20 @@
   </div>
 
 
-  <div class="grid grid-cols-2 gap-4 py-8 px-4 mx-auto max-w-screen-md">
-
-    <!-- Card Atendimentos -->
-    <div class="bg-gray-900 rounded-lg p-5 flex flex-col justify-center items-center">
-      <h3 class="text-xl font-bold text-gray-300 text-center">Atendimentos</h3>
-      <span class="text-gray-300 text-2xl font-semibold">10</span>
+  <div class="flex mt-4 space-x-6">
+    <div class="bg-gray-900 rounded-lg px-6 py-4 text-center">
+      <p class="text-yellow-400 text-2xl font-semibold">
+        25
+      </p>
+      <p class="text-sm text-gray-400">Atendimentos</p>
     </div>
-
-    <!-- Card Novos Clientes -->
-    <div class="bg-gray-900 rounded-lg p-5 flex flex-col justify-center items-center">
-      <h3 class="text-xl font-bold text-gray-300 text-center">Novos Clientes</h3>
-      <span class="text-gray-300 text-2xl font-semibold">10</span>
+    <div class="bg-gray-900 rounded-lg px-6 py-4 text-center">
+      <p class="text-yellow-400 text-2xl font-semibold">5
+      </p>
+      <p class="text-sm text-gray-400">Novos Clientes</p>
     </div>
-
   </div>
+
 
 
 

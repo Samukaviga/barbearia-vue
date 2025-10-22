@@ -11,7 +11,6 @@
 
       </Button>
 
-
     </ButtonAccessLayout>
 
      <FormService @add-new-service="AddNewService" />
@@ -53,7 +52,7 @@ function AddNewService(service) {
   services.push({
     id: services.length + 1,
     name: service.name,
-    price: service.price,
+    price: service.price.toFixed(2).replace('.', ','),
     time: service.time
   });
 
