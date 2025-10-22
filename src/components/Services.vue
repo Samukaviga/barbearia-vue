@@ -48,9 +48,8 @@ const services = reactive([
     price: "18,00",
     time: "15:00"
   }
-])
+]);
 
-console.log(services)
 
 
 
