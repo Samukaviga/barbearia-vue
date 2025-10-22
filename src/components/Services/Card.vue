@@ -14,7 +14,7 @@
         <span class="text-gray-500 dark:text-gray-400">{{ service.time }} min</span>
       </div>
 
-      <div class="flex items-center font-bold text-gray-200 text-lg">
+      <div class="flex items-center font-bold text-yellow-400 text-lg">
         R$ {{ service.price }}
       </div>
 
