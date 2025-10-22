@@ -40,7 +40,7 @@ const services = reactive([
     time: '30:00'
   },
   {
-    id: 1,
+    id: 2,
     name: "Sobrancelha",
     price: "18,00",
     time: "15:00"
