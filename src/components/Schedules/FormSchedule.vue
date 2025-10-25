@@ -26,6 +26,23 @@
                 <form class="p-4 md:p-5">
                     <div class="grid gap-4 mb-4 grid-cols-2">
 
+                        <div class="col-span-2">
+                            <label for="name" class="block mb-2 text-sm font-medium text-white">Data</label>
+                            <div class="relative max-w-sm">
+                                <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
+                                    <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true"
+                                        xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                                        <path
+                                            d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
+                                    </svg>
+                                </div>
+                                <input id="datepicker-actions" datepicker datepicker-buttons datepicker-autoselect-today
+                                    type="text"
+                                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full ps-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                                    placeholder="Select date">
+                            </div>
+                        </div>
+
                         <div class="col-span-2 sm:col-span-1">
                             <label for="countries" class="block mb-2 text-sm font-medium text-white">Cliente</label>
                             <select id="countries"
@@ -38,13 +55,22 @@
                             </select>
                         </div>
 
-
-                        <div class="col-span-2">
-                            <label for="name" class="block mb-2 text-sm font-medium text-white">Nome</label>
-                            <input v-model="newService.name" type="text" name="name" id="name"
-                                class=" border text-sm rounded-lg block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500"
-                                placeholder="Ex: Cabelo" required>
+                        <div class="col-span-2 sm:col-span-1">
+                            <label for="countries" class="block mb-2 text-sm font-medium text-white">Serviço</label>
+                            <select id="countries"
+                                class=" border text-sm rounded-lg block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500">
+                                <option selected>Selecione o Serviço</option>
+                                <option value="US">Barba</option>
+                                <option value="CA">Cabelo</option>
+                                <option value="FR">Cabelo e barba</option>
+                                <option value="DE">Sobrancelha</option>
+                            </select>
                         </div>
+
+
+
+
+
 
                         <div class="col-span-2 sm:col-span-1">
                             <label for="time" class="block mb-2 text-sm font-medium text-white">
@@ -60,11 +86,13 @@
                                             clip-rule="evenodd" />
                                     </svg>
                                 </div>
-                                <input v-model="newService.time" type="time" id="time"
+                                <input v-model="newService.time" type="time"
                                     class="border text-sm rounded-lg block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500"
-                                    min="09:00" max="18:00" value="00:00" required />
+                                    min="00:00" max="60:00" value="00:00" required />
                             </div>
                         </div>
+
+
 
 
                     </div>
