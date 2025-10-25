@@ -50,7 +50,7 @@
 
   </div>
 
-
+  <!--
   <div class="flex mt-4 space-x-6">
     <div class="bg-gray-900 rounded-lg px-6 py-4 text-center">
       <p class="text-yellow-400 text-2xl font-semibold">
@@ -64,8 +64,42 @@
       <p class="text-sm text-gray-400">Novos Clientes</p>
     </div>
   </div>
+  <div class="flex mt-4 space-x-6">
+    <div class="bg-gray-900 rounded-lg px-6 py-4 text-center">
+      <p class="text-yellow-400 text-2xl font-semibold">
+        R$ 1350,00
+      </p>
+      <p class="text-sm text-gray-400">Total Redimento</p>
+    </div>
 
+  </div>
 
+-->
+
+  <div class="grid gap-2 mt-2 grid-cols-2 mx-2">
+
+    <div class="cols-span-1 bg-gray-900 rounded-lg px-6 py-4 text-center">
+      <p class="text-yellow-400 text-2xl font-semibold">
+        25
+      </p>
+      <p class="text-sm text-gray-400">Atendimentos</p>
+    </div>
+
+    <div class="cols-span-1 bg-gray-900 rounded-lg px-6 py-4 text-center">
+      <p class="text-yellow-400 text-2xl font-semibold">
+        25
+      </p>
+      <p class="text-sm text-gray-400">Novos Clientes</p>
+    </div>
+
+    <div class="col-span-2 bg-gray-900 rounded-lg px-6 py-4 text-center">
+      <p class="text-yellow-400 text-2xl font-semibold">
+        25
+      </p>
+      <p class="text-sm text-gray-400">Total Rendimento</p>
+    </div>
+
+  </div>
 
 
 
