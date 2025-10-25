@@ -26,7 +26,19 @@
                 <form class="p-4 md:p-5">
                     <div class="grid gap-4 mb-4 grid-cols-2">
 
-                        <div class="col-span-2">
+                        <div class="col-span-2 sm:col-span-1">
+                            <label for="countries" class="block mb-2 text-sm font-medium text-white">Cliente</label>
+                            <select id="countries"
+                                class=" border text-sm rounded-lg block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500">
+                                <option selected>Selecione o Cliente</option>
+                                <option value="US">Samuel</option>
+                                <option value="CA">Vitor</option>
+                                <option value="FR">Hewerton</option>
+                                <option value="DE">Luan</option>
+                            </select>
+                        </div>
+
+                        <div class="col-span-1">
                             <label for="name" class="block mb-2 text-sm font-medium text-white">Data</label>
                             <div class="relative max-w-sm">
                                 <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
@@ -43,36 +55,7 @@
                             </div>
                         </div>
 
-                        <div class="col-span-2 sm:col-span-1">
-                            <label for="countries" class="block mb-2 text-sm font-medium text-white">Cliente</label>
-                            <select id="countries"
-                                class=" border text-sm rounded-lg block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500">
-                                <option selected>Selecione o Cliente</option>
-                                <option value="US">Samuel</option>
-                                <option value="CA">Vitor</option>
-                                <option value="FR">Hewerton</option>
-                                <option value="DE">Luan</option>
-                            </select>
-                        </div>
-
-                        <div class="col-span-2 sm:col-span-1">
-                            <label for="countries" class="block mb-2 text-sm font-medium text-white">Serviço</label>
-                            <select id="countries"
-                                class=" border text-sm rounded-lg block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500">
-                                <option selected>Selecione o Serviço</option>
-                                <option value="US">Barba</option>
-                                <option value="CA">Cabelo</option>
-                                <option value="FR">Cabelo e barba</option>
-                                <option value="DE">Sobrancelha</option>
-                            </select>
-                        </div>
-
-
-
-
-
-
-                        <div class="col-span-2 sm:col-span-1">
+                        <div class="col-span-1 sm:col-span-1">
                             <label for="time" class="block mb-2 text-sm font-medium text-white">
                                 Hora
                             </label>
@@ -91,6 +74,27 @@
                                     min="00:00" max="60:00" value="00:00" required />
                             </div>
                         </div>
+
+
+
+                        <div class="col-span-2 sm:col-span-1">
+                            <label for="countries" class="block mb-2 text-sm font-medium text-white">Serviço</label>
+                            <select id="countries"
+                                class=" border text-sm rounded-lg block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500">
+                                <option selected>Selecione o Serviço</option>
+                                <option value="US">Barba</option>
+                                <option value="CA">Cabelo</option>
+                                <option value="FR">Cabelo e barba</option>
+                                <option value="DE">Sobrancelha</option>
+                            </select>
+                        </div>
+
+
+
+
+
+
+
 
 
 
