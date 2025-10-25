@@ -14,7 +14,7 @@
           <font-awesome-icon aria-hidden="true" class="fa-xl mb-1 text-gray-400 group-hover:text-blue-500"
             icon="list" />
 
-          <span class="sr-only">Service</span>
+          <span class="sr-only">Serviços</span>
 
         </button>
       </router-link>
@@ -22,7 +22,7 @@
 
       <div id="tooltip-home" role="tooltip"
         class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 rounded-lg shadow-xs opacity-0 tooltip bg-gray-700">
-        Service
+        Serviços
         <div class="tooltip-arrow" data-popper-arrow></div>
       </div>
 
@@ -51,7 +51,8 @@
 
 
       <div class="flex items-center justify-center">
-        <router-link to="/schedules" class="inline-flex items-center justify-center w-10 h-10 font-medium bg-blue-600 rounded-full hover:bg-blue-700 group focus:ring-4 focus:outline-none focus:ring-blue-800">
+        <router-link to="/schedules"
+          class="inline-flex items-center justify-center w-10 h-10 font-medium bg-blue-600 rounded-full hover:bg-blue-700 group focus:ring-4 focus:outline-none focus:ring-blue-800">
           <button data-tooltip-target="tooltip-new" type="button"
             class="inline-flex items-center justify-center w-10 h-10 font-medium">
             <svg class="w-4 h-4 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
@@ -59,13 +60,13 @@
               <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                 d="M9 1v16M1 9h16" />
             </svg>
-            <span class="sr-only">Novo agendamento</span>
+            <span class="sr-only">Agendamentos</span>
           </button>
         </router-link>
       </div>
       <div id="tooltip-new" role="tooltip"
         class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 rounded-lg shadow-xs opacity-0 tooltip bg-gray-700">
-        Novo agendamento
+        Agedamentos
         <div class="tooltip-arrow" data-popper-arrow></div>
       </div>
 
