@@ -26,18 +26,6 @@
                 <form class="p-4 md:p-5">
                     <div class="grid gap-4 mb-4 grid-cols-2">
 
-                        <div class="col-span-2 sm:col-span-1">
-                            <label for="countries" class="block mb-2 text-sm font-medium text-white">Cliente</label>
-                            <select id="countries"
-                                class=" border text-sm rounded-lg block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500">
-                                <option selected>Selecione o Cliente</option>
-                                <option value="US">Samuel</option>
-                                <option value="CA">Vitor</option>
-                                <option value="FR">Hewerton</option>
-                                <option value="DE">Luan</option>
-                            </select>
-                        </div>
-
                         <div class="col-span-1">
                             <label for="name" class="block mb-2 text-sm font-medium text-white">Data</label>
                             <div class="relative max-w-sm">
@@ -75,7 +63,17 @@
                             </div>
                         </div>
 
-
+                        <div class="col-span-2 sm:col-span-1">
+                            <label for="countries" class="block mb-2 text-sm font-medium text-white">Cliente</label>
+                            <select id="countries"
+                                class=" border text-sm rounded-lg block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500">
+                                <option selected>Selecione o Cliente</option>
+                                <option value="US">Samuel</option>
+                                <option value="CA">Vitor</option>
+                                <option value="FR">Hewerton</option>
+                                <option value="DE">Luan</option>
+                            </select>
+                        </div>
 
                         <div class="col-span-2 sm:col-span-1">
                             <label for="countries" class="block mb-2 text-sm font-medium text-white">Serviço</label>
