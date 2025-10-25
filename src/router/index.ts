@@ -10,8 +10,7 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      name: 'home',
-      component: HomeView,
+      redirect: '/schedules',
     },
 
     {
@@ -32,7 +31,7 @@ const router = createRouter({
       component: ClientView,
     },
 
-     {
+    {
       path: '/schedules',
       name: 'SchedulesView',
       component: SchedulesView,
